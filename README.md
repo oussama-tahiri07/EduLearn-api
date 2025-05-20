@@ -1,4 +1,4 @@
-# Learning Management System (LMS)
+# EduLear
 A learning management system backend API designed to manage and organize courses, assessments (quizzes, assignments), student enrollment, performance tracking, and grading. Built using Java Spring Boot, it implements a layered architecture for scalability and separation of concerns. It provides robust and efficient user authentication, course content management, and progress monitoring.
 
 ## Features
@@ -116,26 +116,3 @@ A learning management system backend API designed to manage and organize courses
 - Spring Boot
 - Maven
 - PostgreSQL
-
-### **Installation**
-### 1. Clone the repository:
-```bash
-git clone https://github.com/omarse7a/Learning-Management-System.git
-cd Learning-Management-System
-```
-### 2. Configure application.yml:
-- add your database info in the datasource property.
-- add your email info in the mail property
-
-### 3. Build the project:
-```bash
-mvn clean install
-```
-
-### 4. Run the application:
-```bash
-mvn spring-boot:run
-```
-or run Application.java from the IDE you're using
-
-
